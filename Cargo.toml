@@ -1,5 +1,5 @@
 [package]
-name = "rust-koans2"
+name = "rust-koans"
 version = "0.1.0"
 authors = ["Eric Fulmer <eric.r.fulmer@gmail.com>"]
 
