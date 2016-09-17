@@ -1,10 +1,9 @@
+use std::any::Any;
+use std::fmt::Debug;
+
+mod about_options;
+mod util;
+
 fn main() {
     println!("Hello, world!");
-}
-
-#[cfg(test)]
-mod test {
-    #[test]
-    fn it_works() {
-    }
 }
