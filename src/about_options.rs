@@ -1,4 +1,4 @@
-use util::{__, test};
+use util::*;
 
 #[test]
 fn get_values_out_of_options() {
@@ -9,7 +9,7 @@ fn get_values_out_of_options() {
 #[test]
 #[should_panic]
 fn extracting_values_from_options_can_be_risky() {
-    // change something about this
+    // change something about the below lines of code to cause a panic
     let x: Option<bool> = Some(true);
     x.unwrap();
 }
